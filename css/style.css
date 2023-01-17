@@ -5,16 +5,22 @@
 }
 body{
     background-color: #007fff;
+    
 }
 
 body main{
     width: 50%;
     margin: auto;
+    margin-bottom: 80px;
+    padding: 0px 30px;
+    
+
 }
 
  main{
     background-color: white;
     border-radius: 5px;
+    
     
  }
 
