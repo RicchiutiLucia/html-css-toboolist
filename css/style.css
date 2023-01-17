@@ -99,6 +99,7 @@ body main{
 .newsletter{
     font-weight: lighter;
     margin-bottom: 50px;
+    
 
 }
 
@@ -117,6 +118,8 @@ body main{
 
 .sottotitolo{
     font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 
