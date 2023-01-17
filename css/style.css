@@ -62,8 +62,6 @@ body main{
 .text-row{
     margin-left: 40px;
     font-weight: bold;
-   
-    
 
 }
 
@@ -72,6 +70,11 @@ body main{
 
 }
 .text-row2::before{
+    content: '\2714'
+
+}
+
+.text-row3::before{
     content: '\2714'
 
 }
@@ -88,6 +91,12 @@ body main{
 }
 
 .today{
+    font-weight: lighter;
+    margin-bottom: 50px;
+
+}
+
+.upcoming{
     font-weight: lighter;
     margin-bottom: 50px;
 
@@ -160,6 +169,30 @@ body main{
 
     line-height: 40px;
     background-color:orange;
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#website{
+    line-height: 40px;
+    background-color:rgb(201, 30, 124);
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+
+#sales{
+
+    line-height: 40px;
+    background-color:greenyellow;
     color: white;
     border-radius: 15px;
     width: 80px;
