@@ -69,15 +69,25 @@ body main{
 
 .text-row::before{
     content: '\2714'
-    
 
 }
+.text-row2::before{
+    content: '\2714'
+
+}
+
 .titolo{
     font-size: 30px;
     font-weight: bold;
 }
 
 .newsletter{
+    font-weight: lighter;
+    margin-bottom: 50px;
+
+}
+
+.today{
     font-weight: lighter;
     margin-bottom: 50px;
 
@@ -101,6 +111,55 @@ body main{
 #editorial{
     line-height: 40px;
     background-color: #007fff;
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#goals{
+
+    line-height: 40px;
+    background-color: #8f00ff;
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.cross{
+    margin-top: 10px;
+    color:red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+#recruiting{
+    line-height: 40px;
+    background-color:rgb(9, 155, 204);
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#mobile{
+
+    line-height: 40px;
+    background-color:orange;
     color: white;
     border-radius: 15px;
     width: 80px;
